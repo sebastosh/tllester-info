@@ -1,6 +1,6 @@
 # Configure Cloudflare Worker
 
-name = "tllester-info-tina-test"
+name = "tllester-info"
 compatibility_date = "2025-07-31"
 
 [build]
