@@ -13,8 +13,6 @@ Todd became a sticker artist--a.k.a. el mejor karate--whilst living in São Paul
 
 \[\*This biography was written for participation in the [Mirante Xique-Xique](https://mirantexiquexique.org/) residency in Bahia, Brazil]
 
-—
-
 ## Statement
 
 1. I’m at the beginning of an archiving process that I’ll put online. Having called myself an artist for over 20 years and holding a series of long-duration projects (or thematic chapters of work) in place, I now seek to externalize some of my process and the trends I’ve witnessed. I suppose this is a mid-career retrospective of sorts; an assemblage in my own words.
