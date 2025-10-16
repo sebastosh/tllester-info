@@ -58,11 +58,12 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .wrapper {
     height: 75vh;
-        display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -70,7 +71,11 @@ body {
 
 
 header {
+    width: 100%;
     line-height: 2em;
+    position: sticky;
+    top: 0;
+    background: white
 }
 
 header a,
@@ -86,13 +91,19 @@ main {
     justify-content: space-between;
 }
 
+.main-menu {
+    position: sticky;
+    top: 25px;
+    height: 85vh;
+}
+
 .main-menu .about {
     line-height: 2em;
 }
 
 
 .main-menu .list {
-        width: 210px;
+    width: 210px;
     height: 33%;
     line-height: 1.5;
     padding-top: 9px;
@@ -105,6 +116,7 @@ main {
 }
 
 #TableOfContents {
+    width: 173px;
     min-height: 282px;
     font-size: 0.9em;
 }
@@ -119,7 +131,7 @@ main {
 }
 
 .content {
-    padding: 25px 5%;
+    margin: 85px 3% 25px;
     font-size: small;
 }
 
