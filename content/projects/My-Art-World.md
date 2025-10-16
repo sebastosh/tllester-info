@@ -3,6 +3,9 @@ title: My Art World
 date: 2025-10-15T06:00:00.000Z
 ---
 
+![](/uploads/my-art-world.png)
+
+
 In Cadáver Esquisito: uma história de amor intergaláctico, a chapter I wrote for AIDS Sem Capa: reflexões virais sobre um mundo pós-pandemia (2022), I say:
 
 ```
