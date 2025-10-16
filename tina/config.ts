@@ -1,5 +1,7 @@
 import { defineConfig } from "tinacms";
 import Post from "./collections/post";
+import Project from "./collections/project";
+import Page from "./collections/page";
 
 export default defineConfig({
   clientId: process.env.TINA_CLIENT_ID!,
@@ -19,6 +21,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [Post],
+    collections: [Page, Post, Project],
   },
 });

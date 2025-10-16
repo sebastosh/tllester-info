@@ -1,0 +1,13 @@
+{{ define "main" }}
+    <h1>{{ .Page.Title }}</h1>
+    {{ .Content }}
+    {{ range sort .Pages "Date" "desc" }}
+        {{ if not .Params.private }}
+        <div class="post">
+            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .PublishDate.Format "Jan. 2, 2006" }} - 
+                {{ .Title }}</a></h1>
+            <p>{{ .Summary }}</p>
+        </div>
+        {{ end }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,8 @@
+---
+title: Luv ‘til it Hurts
+date: 2020-12-31T06:00:00.000Z
+---
+
+For two years Luv ’til it Hurts (2018-20) engages poz artists and allies from Egypt, Germany, France, Brazil, USA, Mauritius, Colombia, Poland, Taiwan and beyond to understand their local HIV-related stigmas and challenges, yielding an evolving group exhibition and activist soapbox that can be invited to other communities.
+
+I contracted HIV while living in São Paulo and making Lanchonete(.)org. Project ideas started bubbling up in elements of Lanchonete(.)org’s work, such as Cidade Queer. This helped me come out of the closet for a second time … as HIV+. With COVID not yet visible on the horizon, I launched the third and final part or act of the series. I would stop after and document the twenty-year period and three-part series. I would make something out of it all (together), a meta-assemblage; something intergalactic and methodological at the same time I can imagine. This project was framed as an R\&D phase to develop a device that would be sent out to the AIDS front. Globally, if possible. The Exquisite Corpse exhibition/interactive game combo is that device. And just as EMK spoke up in Cadáver Esquisito: uma história de amor intergaláctico, a chapter I wrote for AIDS Sem Capa: reflexões virais sobre um mundo pós-pandemia (2022), I can confide with you that he also wrote The Tennessean op-ed, ‘[Culture war’ threatens the health and lives of people with HIV in Tennessee](https://www.tennessean.com/story/opinion/contributors/2023/03/31/culture-war-threatens-health-lives-people-with-hiv-in-tennessee/70069750007/) even it is signed by Todd Lanier Lester.

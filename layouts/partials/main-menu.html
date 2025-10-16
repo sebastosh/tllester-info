@@ -1,0 +1,33 @@
+        <div class="main-menu">
+
+
+{{ with .GetPage "about" }}
+                <div class="about">
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </div>
+{{ end }}
+            
+
+            <div class="list">
+                {{ with .Site.GetPage "/posts" }}
+                {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+                <div class="post">
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+
+            <div class="list">
+                {{ with .Site.GetPage "/projects" }}
+                {{ range first 20 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+                <div class="post">
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+ 
+
+
+        </div>
