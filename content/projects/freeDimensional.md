@@ -3,6 +3,8 @@ title: freeDimensional
 date: 2012-01-31T06:00:00.000Z
 ---
 
+![](/uploads/freedimensional.png)
+
 For 10 years freeDimensional (2003-12) urges a sea change in the artist residency sector by practicing artist shelter and evacuation placements, convening networks and coalitions of expert practice, and publishing lessons learned in immigration and cultural policy fora.
 
 “The crisis consists precisely in the fact that the old is dying and the new cannot be born; in this interregnum a great variety of morbid symptoms appear.” ― Antonio Gramsci, Prison Notebooks (1947).
