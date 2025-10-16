@@ -1,8 +1,10 @@
-   <header>
-          {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
-          {{ $.Scratch.Add "path" .Site.BaseURL }}
-          <a href="{{ .Site.BaseURL }}" >{{ .Site.Title }}</a>
-          {{ range $index, $element := split $url "/" }}{{ $.Scratch.Add "path" $element }}{{ if ne $element "" }}<a
-            href='{{ $.Scratch.Get "path" | absURL }}'>/ {{ . }}</a> {{ $.Scratch.Add "path" "/" }}{{ end }}{{ end }}
+<header>
 
-    </header>
+<a href="{{ .Site.BaseURL }}" >{{ .Site.Title }}</a> 
+<a aria-current="page" href="{{ .RelPermalink }}">
+  {{ if not .IsHome }}
+  / {{ .LinkTitle }}
+  {{ end }}
+</a>
+
+</header>
