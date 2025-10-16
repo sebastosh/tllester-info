@@ -1,5 +1,5 @@
 ---
-title: Res Artist
+title: Res Artis
 date: 2025-09-19T06:00:00.000Z
 draft: false
 ---
