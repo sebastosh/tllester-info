@@ -5,12 +5,9 @@ date: 2025-10-15T06:00:00.000Z
 
 ![](/uploads/my-art-world.png)
 
-
 In Cadáver Esquisito: uma história de amor intergaláctico, a chapter I wrote for AIDS Sem Capa: reflexões virais sobre um mundo pós-pandemia (2022), I say:
 
-```
-NASA proudly landed a spacecraft on Mars early in Biden’s 1st term, yet throughout the history of space travel there has been no credible sighting of the art world and many haven’t even heard of it. The outcome I’ve been asked to pursue is therefore complicated not by a majority wanting confirmation the art world exists, but by one not caring whether its existence is proven or debunked, simply not knowing to care. Given that it might all be a hoax, the findings–I was told–should be useful in other arenas.
-```
+> NASA proudly landed a spacecraft on Mars early in Biden’s 1st term, yet throughout the history of space travel there has been no credible sighting of the art world and many haven’t even heard of it. The outcome I’ve been asked to pursue is therefore complicated not by a majority wanting confirmation the art world exists, but by one not caring whether its existence is proven or debunked, simply not knowing to care. Given that it might all be a hoax, the findings–I was told–should be useful in other arenas.
 
 The so-called art world is a Janus-faced hologram at times. It presents a caricature of other markets and operates ruthlessly around capture points, such as a material work on the secondary market (brandname auction house or museum). On the other, is a horizon of artists working on/in other worlds. The art world can therefore be arrived at in a variety of ways. Formal art training seems to suggest a limited market space. Ex-art students and others help break down this illusionary space–or continuum between finance and history-lite. This is not what she said when I tapped her on the shoulder at the 2004 World Social Forum in Mumbai, but I remember her vision from that event: “Another world is not only possible, she is on her way. On a quiet day, I can hear her breathing.” ― Arundhati Roy
 
