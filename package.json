@@ -1,7 +1,7 @@
 {
-  "name": "tina-hugo-starter",
+  "name": "tllester-info",
   "version": "1.0.0",
-  "description": "A starter for TinaCMS with Hugo",
+  "description": "Todd Lanier Lester",
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinalabs/vanilla-hugo.git"
+    "url": "git+https://github.com/sebastosh/tllester-info.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tinalabs/vanilla-hugo/issues"
+    "url": "https://github.com/sebastosh/tllester-info/issues"
   },
-  "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
+  "homepage": "https://github.com/sebastosh/tllester-info#readme",
   "dependencies": {
     "@tinacms/auth": "^1.1.0",
     "@tinacms/cli": "^1.10.2",
