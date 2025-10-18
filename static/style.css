@@ -59,7 +59,7 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     position: relative;
-}
+    }
 
 .wrapper {
     height: 75vh;
@@ -69,13 +69,10 @@ body {
     flex-wrap: nowrap;
 }
 
-
 header {
     width: 100%;
     line-height: 2em;
-    position: sticky;
-    top: 0;
-    background: white
+
 }
 
 header a,
@@ -107,7 +104,7 @@ main {
     height: 33%;
     line-height: 1.5;
     padding-top: 9px;
-    border-top: 1px solid black;
+    border-top: 1px solid;
 }
 
 .main-menu a {
@@ -133,6 +130,16 @@ main {
 .content {
     margin: 30px 3% 25px;
     font-size: small;
+}
+
+.svg-fill path {
+        fill: #141416; /* Default light mode color */
+}
+
+@media (prefers-color-scheme: dark) {
+    .svg-fill path {
+        fill: #ffffff; /* Dark mode color */
+    }
 }
 
 /* Define the animation */
@@ -173,7 +180,10 @@ main {
     cursor: url('fire.svg') 50 50, auto;
 }
 
-
+.emk {
+    background-color: black;
+    color: white;
+}
 
 .image-grid img {
     width: 25vh;
@@ -190,3 +200,18 @@ main {
         align-items: start;
     }
 }
+
+  /* DARK MODE */
+
+  body.emk-mode, 
+body.emk-mode main * {
+    background: rgb(45, 45, 45);
+    color: #f5f5f5;
+}
+
+body.emk-mode header a, body.emk-mode header a
+a:visited {
+    text-decoration: none;
+ background: rgb(45, 45, 45);
+    color: #f5f5f5;
+} 

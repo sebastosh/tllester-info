@@ -62,3 +62,26 @@ To learn more about Tina, take a look at the following resources:
 - [Getting Started Guide](https://tina.io/guides/tinacms/non-react-based-ssg/guide/)
 
 You can check out the [Tina GitHub repository](https://github.com/tinacms/tinacms) - your feedback and contributions are welcome!
+
+## Notes
+
+```
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPath = window.location.pathname;
+
+    if (currentPath === '/') {
+        // Home page
+        document.body.style.backgroundColor = 'lightblue';
+    } else if (currentPath.startsWith('/products')) {
+        // Products page or any sub-page within /products
+        document.body.style.backgroundImage = 'url("images/product-bg.jpg")';
+        document.body.style.backgroundSize = 'cover'; // Optional: cover the entire background
+    } else if (currentPath === '/about') {
+        // About page
+        document.body.style.backgroundColor = 'lightgreen';
+    } else {
+        // Default background for other pages
+        document.body.style.backgroundColor = 'white';
+    }
+});
+```

@@ -1,6 +1,7 @@
 ---
 title: My Art World
 date: 2025-10-15T06:00:00.000Z
+type: 'project' 
 ---
 
 ![](/uploads/my-art-world.png)
