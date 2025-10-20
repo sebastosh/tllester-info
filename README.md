@@ -1,4 +1,6 @@
-This is a [Tina CMS](https://tina.io/) project for Hugo.
+# tllester.info
+
+A [Tina CMS](https://tina.io/) project for Hugo.
 
 ## Setup
 
@@ -10,13 +12,13 @@ This is a [Tina CMS](https://tina.io/) project for Hugo.
 
 Install the project's dependencies:
 
-```
+```bash
 pnpm install
 ```
 
 Run the project locally:
 
-```
+```bash
 pnpm dev
 ```
 
@@ -26,7 +28,7 @@ Open [http://localhost:1313](http://localhost:1313) with your browser to see the
 
 Replace the `.env.example`, with `.env`
 
-```
+```env
 TINA_CLIENT_ID=<get this from the project you create at app.tina.io>
 TINA_TOKEN=<get this from the project you create at app.tina.io>
 TINA_BRANCH=<Specify the branch with Tina configured>
@@ -40,17 +42,17 @@ pnpm build
 
 ## Deploying the Site
 
-This project can easily be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/). 
+This project can easily be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
 
 ### Build settings
 
 In general, the build settings will look like so:
 
-<img width="908" alt="hugo-build-settings" src="https://user-images.githubusercontent.com/3323181/198081223-c8830e49-2a77-4c7a-b1cf-bc9a44ca96cf.png">
+![hugo-build-settings](https://user-images.githubusercontent.com/3323181/198081223-c8830e49-2a77-4c7a-b1cf-bc9a44ca96cf.png)
 
 ### Environment variables
 
-When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project. 
+When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project.
 
 The Hugo theme in this starter also depends on using a specific version of Hugo. Set the following environment variable as well: `HUGO_VERSION`: `0.134.2`
 
@@ -65,18 +67,15 @@ You can check out the [Tina GitHub repository](https://github.com/tinacms/tinacm
 
 ## Notes
 
-```
+change bg-color on path:
+
+```js
 document.addEventListener('DOMContentLoaded', function() {
     const currentPath = window.location.pathname;
-
     if (currentPath === '/') {
         // Home page
         document.body.style.backgroundColor = 'lightblue';
-    } else if (currentPath.startsWith('/products')) {
-        // Products page or any sub-page within /products
-        document.body.style.backgroundImage = 'url("images/product-bg.jpg")';
-        document.body.style.backgroundSize = 'cover'; // Optional: cover the entire background
-    } else if (currentPath === '/about') {
+    }  else if (currentPath === '/about') {
         // About page
         document.body.style.backgroundColor = 'lightgreen';
     } else {
@@ -84,4 +83,10 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.backgroundColor = 'white';
     }
 });
+```
+
+pull wp posts into md:
+
+```bash
+npx wordpress-export-to-markdown --input=export.xml
 ```
