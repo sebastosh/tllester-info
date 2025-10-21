@@ -180,11 +180,6 @@ main {
     cursor: url('fire.svg') 50 50, auto;
 }
 
-.emk {
-    background-color: black;
-    color: white;
-}
-
 .image-grid img {
     width: 25vh;
 }
@@ -215,3 +210,22 @@ a:visited {
  background: rgb(45, 45, 45);
     color: #f5f5f5;
 } 
+
+  body.fd-mode {
+    background-image: url('uploads/background-fd.png');
+
+  /* Set the background size and position */
+  background-size: cover;
+  background-position: center;
+
+  /* Set the opacity of the entire element, including the background image */
+  opacity: 0.6;
+
+  /* Set the padding to create some space around the text */
+  padding: 20px;
+
+ 
+
+}
+
+
