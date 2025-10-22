@@ -3,11 +3,6 @@
 
 <div class="content">
     <h1>{{ .Date | time.Format ":date_medium" }} - {{ .Page.Title }}</h1>
-
-
-    {{/* <h1>{{ .Page.Title }}</h1> */}}
-
-
     {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}

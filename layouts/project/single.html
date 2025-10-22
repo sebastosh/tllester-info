@@ -1,22 +1,17 @@
 {{ define "main" }}
 
+    {{ .TableOfContents }}
 
-{{- partial "project-menu.html" . -}}
+    <div class="content">
+        <h1>{{ .Page.Title }}</h1>
+        {{ if and (isset .Params "image") .Params.image }}
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+            {{ with $image }}
+                {{ printf `<img src="%s" alt="%s">` $image.RelPermalink .Title | safeHTML }}
+            {{end}}
+        {{ end }}
 
-<div class="content">
-    {{/*  <h1>{{ .Page.Title }}</h1>  */}}
-
-
-
-{{ if and (isset .Params "image") .Params.image }}
-    {{ $image := .Page.Resources.GetMatch .Params.image }}
-    {{ with $image }}
-        {{ printf `<img src="%s" alt="%s">` $image.RelPermalink .Title | safeHTML }}
-    {{end}}
-{{ end }}
-
-{{ .Content }}
-{{ template "_internal/disqus.html" . }}
-</div>
+        {{ .Content }}
+    </div>
 
 {{ end }}

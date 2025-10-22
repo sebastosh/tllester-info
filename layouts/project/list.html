@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{/*  <h1>{{ .Page.Title }}</h1>  */}}
+<h1>{{ .Page.Title }}</h1>
 {{ .Content }}
 <div class="image-grid">
     {{ range sort .Pages "Date" "desc" }}

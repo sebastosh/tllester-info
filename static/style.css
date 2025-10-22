@@ -72,7 +72,6 @@ body {
 header {
     width: 100%;
     line-height: 2em;
-
 }
 
 header a,
@@ -81,6 +80,8 @@ a:visited {
     color: black;
 }
 
+
+
 main {
     width: 1080px;
     display: flex;
@@ -88,18 +89,18 @@ main {
     justify-content: space-between;
 }
 
-.main-menu {
+.menu {
     position: sticky;
     top: 25px;
     height: 85vh;
 }
 
-.main-menu .about {
+.menu .about {
     line-height: 2em;
 }
 
 
-.main-menu .list {
+.menu .list {
     width: 210px;
     height: 33%;
     line-height: 1.5;
@@ -107,13 +108,17 @@ main {
     border-top: 1px solid;
 }
 
-.main-menu a {
+.menu a {
     text-decoration: none;
     color: black;
 }
 
+nav {
+    min-width: 170px;
+}
+
 #TableOfContents {
-    width: 173px;
+    border-top: 1px solid rgb(255, 255, 255);
     min-height: 282px;
     font-size: 0.9em;
 }
@@ -128,7 +133,7 @@ main {
 }
 
 .content {
-    margin: 30px 3% 25px;
+    margin: 0 3% 25px;
     font-size: small;
 }
 
