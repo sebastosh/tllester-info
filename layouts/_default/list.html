@@ -1,5 +1,4 @@
 {{ define "main" }}
-
             <div class="list">
                 {{ with .Site.GetPage "/projects" }}
                 {{ range first 20 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
@@ -9,6 +8,5 @@
                 {{ end }}
                 {{ end }}
             </div>
-
-
+{{ .Content }}
 {{ end }}
