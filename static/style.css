@@ -59,14 +59,6 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     position: relative;
-    }
-
-.wrapper {
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
 }
 
 header {
@@ -79,8 +71,6 @@ a:visited {
     text-decoration: none;
     color: black;
 }
-
-
 
 main {
     width: 1080px;
@@ -114,11 +104,10 @@ main {
 }
 
 nav {
-    min-width: 170px;
+    padding-right: 15px;
 }
 
 #TableOfContents {
-    border-top: 1px solid rgb(255, 255, 255);
     min-height: 282px;
     font-size: 0.9em;
 }
@@ -133,17 +122,21 @@ nav {
 }
 
 .content {
-    margin: 0 3% 25px;
     font-size: small;
+    background-color: white;
+    border: 1px solid;
+    padding: 8px 35px 35px;
 }
 
 .svg-fill path {
-        fill: #141416; /* Default light mode color */
+    fill: #141416;
+    /* Default light mode color */
 }
 
 @media (prefers-color-scheme: dark) {
     .svg-fill path {
-        fill: #ffffff; /* Dark mode color */
+        fill: #ffffff;
+        /* Dark mode color */
     }
 }
 
@@ -185,11 +178,6 @@ nav {
     cursor: url('fire.svg') 50 50, auto;
 }
 
-.emk {
-    background-color: black;
-    color: white;
-}
-
 .image-grid img {
     width: 25vh;
 }
@@ -206,17 +194,35 @@ nav {
     }
 }
 
-  /* DARK MODE */
+/* PROJECT MODES */
 
-  body.emk-mode, 
+body.emk-mode,
 body.emk-mode main * {
+    background: rgb(45, 45, 45);
+    color: #f5f5f5;
+      border: none;
+}
+
+body.emk-mode header a,
+body.emk-mode header a a:visited {
+    text-decoration: none;
     background: rgb(45, 45, 45);
     color: #f5f5f5;
 }
 
-body.emk-mode header a, body.emk-mode header a
-a:visited {
-    text-decoration: none;
- background: rgb(45, 45, 45);
-    color: #f5f5f5;
-} 
+body.fd-mode {
+    background-image: url('uploads/background-fd.png');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+
+    /* Set the padding to create some space around the text */
+    padding: 20px;
+}
+
+body.emk-mode .content {
+    font-size: small;
+    border: none;
+    padding: 8px 35px 35px;
+}
