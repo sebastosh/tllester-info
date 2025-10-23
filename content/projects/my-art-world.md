@@ -1,5 +1,5 @@
 ---
-title: My Art World
+title: my Art World
 date: 2025-10-15T06:00:00.000Z
 type: 'project' 
 ---
