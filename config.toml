@@ -1,3 +1,9 @@
 baseURL = 'https://tllester.info/'
 languageCode = 'en-us'
 title = 'Todd Lanier Lester'
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 2

@@ -7,7 +7,9 @@
     </div>
 
 
-    <div class="list">
+<div class="list-flex">
+
+        <div class="list">
         {{ with .Site.GetPage "/posts" }}
         {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
@@ -27,6 +29,7 @@
         {{ end }}
     </div>
 
+</div>
 
 
 </nav>

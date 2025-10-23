@@ -15,3 +15,11 @@ For 10 years freeDimensional (2003-12) urges a sea change in the artist residenc
 I make new forms. freeDimensional was both a framework for me to meet other thinkers and a specific tool for helping artists stay safe. It was my first assemblage, and showed me how to assemble better for the next project, Lanchonete(.org). I knew it needed ten years to blossom and for me to gain command of a methodology of, let’s say, ‘rhizomatic activation’. Performance, immersion, thematic, duration, multi-actor would also all be keywords for freeDimensional alongside its deep thematic on artist safety, shelter, safehaven, solidarity of spaces, resource-sharing and so forth.
 
 I have tried to keep up with all the initiatives and institutions impacted by the freeDimensional idea. I have tried to make a work that responds to the safety needs of artists around the world.
+
+#### Link 01
+
+#### Link 02
+
+#### Link 03
+
+#### Link 04
