@@ -48,6 +48,7 @@ html {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 
 body {
@@ -59,11 +60,12 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     position: relative;
+    width: 1080px;
 }
 
 header {
     width: 100%;
-    line-height: 2em;
+    margin-bottom: 1.3em;
 }
 
 header a,
@@ -73,41 +75,36 @@ a:visited {
 }
 
 main {
-    width: 1080px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.menu {
-    position: sticky;
-    top: 25px;
+nav {
+    width: 200px;
     height: 85vh;
 }
 
-.menu .about {
-    line-height: 2em;
-}
-
-
-.menu .list {
-    width: 210px;
-    height: 33%;
+#main-menu .page {
     line-height: 1.5;
-    padding-top: 9px;
-    border-top: 1px solid;
+    padding: 0 9px;
 }
 
-.menu a {
+#main-menu .list {
+    height: 33%;
+    margin: 1em 0;
+    line-height: 1.5;
+    padding: 9px;
+    border: 1px solid;
+}
+
+#main-menu a {
     text-decoration: none;
     color: black;
 }
 
-nav {
-    padding-right: 15px;
-}
-
 #TableOfContents {
+    min-width: 200px !important;
     min-height: 282px;
     font-size: 0.9em;
 }
@@ -200,7 +197,7 @@ body.emk-mode,
 body.emk-mode main * {
     background: rgb(45, 45, 45);
     color: #f5f5f5;
-      border: none;
+    border: none;
 }
 
 body.emk-mode header a,

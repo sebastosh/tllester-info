@@ -6,6 +6,8 @@ type: 'project'
 
 ![](/uploads/el-mejor-karate.png)
 
+{{< audio src=/emk.mp3 >}}
+
 I/he became a sticker artist--a.k.a. el mejor karate--whilst living in São Paulo. This ad hoc process continues to clarify the pseudonym or decoy-tendency in naming my/his previous artworks.
 
 In [Cadáver Esquisito: uma história de amor intergaláctico](/uploads/Aids_Sem_Capa_ToddLanierLester_edit.pdf "Aids_Sem_Capa_ToddLanierLester_edit.pdf"), a chapter I wrote for AIDS Sem Capa: reflexões virais sobre um mundo pós-pandemia (2022), EMK speaks up for the first time to say, “The head’s struggle with a new notion is the heart’s most soul-felt pain.”

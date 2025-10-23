@@ -1,6 +1,10 @@
 <header>
 
 <a href="{{ .Site.BaseURL }}" >{{ .Site.Title }}</a> 
-
+<a aria-current="page" href="{{ .RelPermalink }}">
+  {{ if not .IsHome }}
+  / {{ .LinkTitle }}
+  {{ end }}
+</a>
 
 </header>
