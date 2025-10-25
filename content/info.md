@@ -1,5 +1,5 @@
 ---
-title: Info
+title: info
 date: 2025-10-01T06:00:00.000Z
 ---
 

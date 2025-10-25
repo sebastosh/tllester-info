@@ -1,0 +1,10 @@
+<!-- layouts/shortcodes/extract-links.html -->
+{{ define "shortcode/extract-links" }}
+  <div class="extracted-links">
+    <ul>
+      {{ range . }}
+        <li><a href="{{ . }}">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

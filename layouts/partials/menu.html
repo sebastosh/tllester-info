@@ -1,38 +1,35 @@
-<div class="menu">
+<nav id="main">
 
-    <a aria-current="page" href="{{ .RelPermalink }}" class="header-crumb">
-        {{ if not .IsHome }}
-        / {{ .LinkTitle }}
-        {{ end }}
-    </a>
-
-    {{ with .GetPage "info" }}
-    <div class="info">
+    <div class="page">
+        {{ with .GetPage "info" }}
         <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        {{ end }}
     </div>
-    {{ end }}
 
+    <div class="list-flex">
 
-    <div class="list">
-        {{ with .Site.GetPage "/posts" }}
-        {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        <div class="list-post">
+            {{ with .Site.GetPage "/posts" }}
+            {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+            <div class="post">
+                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ partial "fake.html" . }}
         </div>
-        {{ end }}
-        {{ end }}
-    </div>
 
-    <div class="list">
-        {{ with .Site.GetPage "/projects" }}
-        {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        <div class="list-project">
+            {{ with .Site.GetPage "/projects" }}
+            {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+            <div class="post">
+                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            </div>
+            {{ end }}
+            {{ end }}
         </div>
-        {{ end }}
-        {{ end }}
+
     </div>
 
 
-
-</div>
+</nav>
