@@ -274,11 +274,18 @@ footer {
 
 /* PROJECT MODES */
 
-body.emk-mode,
-body.emk-mode main * {
-    background: rgb(45, 45, 45);
+body.emk-mode {
+        background-color: rgb(45, 45, 45);
+    background-image: url('bg/background-emk.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+    
+}
+body.emk-mode * {
+background-color: rgb(45, 45, 45);
     color: #f5f5f5;
-    border: none;
 }
 
 body.emk-mode header a,

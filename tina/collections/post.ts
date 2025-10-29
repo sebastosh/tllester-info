@@ -6,6 +6,28 @@ const Post: Collection = {
   path: "content/posts",
   fields: [
     {
+          type: "object",
+          name: "featured_image",
+          label: "Featured Image",
+          fields: [
+            {
+              type: "image",
+              name: "src",
+              label: "Image",
+            },
+            {
+              type: "string",
+              name: "alt",
+              label: "Image Description (alt)",
+            },
+            {
+              type: "string",
+              name: "caption",
+              label: "Image Caption (title)",
+            },
+          ],
+        },
+    {
       type: "string",
       name: "title",
       label: "Title",
@@ -28,11 +50,6 @@ const Post: Collection = {
       label: "Body",
       isBody: true,
     },
-    {
-  type: 'image',
-  label: 'File',
-  name: 'imgSrc',
-},
   ],
 };
 
