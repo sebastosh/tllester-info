@@ -3,9 +3,9 @@ title: info
 date: 2025-10-01T06:00:00.000Z
 ---
 
-## Biography
+## biography
 
-Todd Lanier Lester is an artist and works on the family farm in Tennessee. Over two decades he launched a series of three rights-focused, participatory works situated between visual media and performance methodology: Multiyear timeframes designated to investigate social themes, while colorful project names offer an umbrella under which artists and non-artists alike create rhizomatic responses unfettered by conceptual end dates. For 10 years freeDimensional (2003-12) urges a sea change in the artist residency sector by practicing artist shelter and evacuation placements, convening networks and coalitions of expert practice, and publishing lessons learned in immigration and cultural policy fora. For five years [Lanchonete.org](https://lanchonete.org) (2013-18) occupies a small bar on a denigrated yet swiftly gentrifying street in the center of São Paulo as nucleus for artist and urbanist residencies, community meals, open courses, concerts, murals, public health campaigns and a radio station. For two years Luv 'til it Hurts (2018-20) engages poz artists and allies from Egypt, Germany, France, Brazil, USA, Mauritius, Colombia, Poland, Taiwan and beyond to understand their local HIV-related stigmas and challenges, yielding an evolving group exhibition and activist soapbox that can be invited to other communities.
+Todd Lanier Lester is an artist and works on the family farm in Tennessee. Over two decades he launched a series of three rights-focused, participatory works situated between visual media and performance methodology: Multiyear timeframes designated to investigate social themes, while colorful project names offer an umbrella under which artists and non-artists alike create rhizomatic responses unfettered by conceptual end dates. For 10 years freeDimensional (2003-12) urges a sea change in the artist residency sector by practicing artist shelter and evacuation placements, convening networks and coalitions of expert practice, and publishing lessons learned in immigration and cultural policy fora. For five years Lanchonete.org (2013-18) occupies a small bar on a denigrated yet swiftly gentrifying street in the center of São Paulo as nucleus for artist and urbanist residencies, community meals, open courses, concerts, murals, public health campaigns and a radio station. For two years Luv 'til it Hurts (2018-20) engages poz artists and allies from Egypt, Germany, France, Brazil, USA, Mauritius, Colombia, Poland, Taiwan and beyond to understand their local HIV-related stigmas and challenges, yielding an evolving group exhibition and activist soapbox that can be invited to other communities.
 
 More recently Todd began writing on artist methodology, both reconsidering his own organic trajectory and researching those of others from whom he draws inspiration and affirmation. Besides writing, a new project is in the works. FARM/SCHOOL plays with time differently, suggesting its arrival--rather than completion--within 10 years.
 
@@ -13,7 +13,7 @@ Todd became a sticker artist--a.k.a. el mejor karate--whilst living in São Paul
 
 \[\*This biography was written for participation in the [Mirante Xique-Xique](https://mirantexiquexique.org/) residency in Bahia, Brazil]
 
-## Statement
+## statement
 
 1. I’m at the beginning of an archiving process that I’ll put online. Having called myself an artist for over 20 years and holding a series of long-duration projects (or thematic chapters of work) in place, I now seek to externalize some of my process and the trends I’ve witnessed. I suppose this is a mid-career retrospective of sorts; an assemblage in my own words.
 2. I also need an artist statement for some upcoming opportunities.

@@ -4,9 +4,10 @@ date: 2025-01-01T06:00:00.000Z
 type: 'project' 
 ---
 
-![el mejore karate](/uploads/el-mejor-karate.png)
 
 {{< audio src=/emk.mp3 >}}
+
+![el mejore karate](/uploads/el-mejor-karate.png)
 
 I/he became a sticker artist--a.k.a. el mejor karate--whilst living in São Paulo. This ad hoc process continues to clarify the pseudonym or decoy-tendency in naming my/his previous artworks.
 

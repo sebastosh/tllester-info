@@ -1,10 +1,8 @@
 ---
+type: project
 title: Luv ‘til it Hurts
 date: 2020-12-31T06:00:00.000Z
-type: 'project' 
 ---
-
-![](/uploads/luv-til-it-hurts.png)
 
 For two years Luv ’til it Hurts (2018-20) engages poz artists and allies from Egypt, Germany, France, Brazil, USA, Mauritius, Colombia, Poland, Taiwan and beyond to understand their local HIV-related stigmas and challenges, yielding an evolving group exhibition and activist soapbox that can be invited to other communities.
 

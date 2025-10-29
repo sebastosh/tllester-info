@@ -1,10 +1,8 @@
 ---
+type: project
 title: FARM/SCHOOL (f/s)
 date: 2025-09-01T06:00:00.000Z
-type: 'project' 
 ---
-
-![Farm School](/uploads/farm-school.png)
 
 *FARM/SCHOOL plays with time differently than the previous series, suggesting its arrival–rather than completion–in about 10 years.*
 
