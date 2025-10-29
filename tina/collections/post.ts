@@ -28,6 +28,11 @@ const Post: Collection = {
       label: "Body",
       isBody: true,
     },
+    {
+  type: 'image',
+  label: 'File',
+  name: 'imgSrc',
+},
   ],
 };
 

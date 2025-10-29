@@ -79,12 +79,20 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 85vh;
+
 }
+
+#main a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
 nav {
     width: 240px;
-
+    height: 75vh;
+    background-color: white;
 }
 
 #main .page {
@@ -93,7 +101,7 @@ nav {
 }
 
 .list-flex {
-    height: 100%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,63 +114,82 @@ nav {
     padding: 9px;
     border-top: 1px solid;
     overflow-y: auto;
+
+}
+
+#main .post {
+    font-size: x-small;
+    margin: 1em 0;
+}
+
+#main .post a:hover{
+text-decoration: underline;
+color:lightcoral
 }
 
 #main .list-project {
-    height: 500px;
     margin: 0;
     line-height: 1.5;
     padding: 9px;
     border-top: 1px solid;
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
-#main .list-project::-webkit-scrollbar {
-    -webkit-appearance: none;
+#main .list-project a {
+display: block;
 }
 
-#main .list-project::-webkit-scrollbar:vertical {
-    width: 11px;
-}
-
-#main .list-project::-webkit-scrollbar:horizontal {
-    height: 11px;
-}
-
-#main .list-project::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    border: 2px solid white; /* should match background, can't be transparent */
-    background-color: rgba(0, 0, 0, .5);
-}
-
-#main a {
+#project a {
     text-decoration: none;
     color: black;
 }
 
-#TableOfContents {
-    min-width: 200px !important;
-    min-height: 282px;
-    font-size: 0.9em;
+
+
+.project-list-flex {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: 1px solid;
-    background-color: white;
-    margin: 0 3% 0 0;
+}
+#project .list-post {
+    line-height: 1.5;
+    padding: 0 10px;
+    overflow-y: auto;
+
+}
+#project .post {
+    font-size: x-small;
+        margin: 1em 0;
+}
+
+#project .list-project {
+    margin: 0;
+    line-height: 1.5;
     padding: 9px;
+    border-top: 1px solid;
+    overflow-y: auto;
 }
 
-#TableOfContents ul {
-    list-style: none;
-    padding-left: 5px !important;
+#project .list-project a {
+    display: block;
 }
 
-#TableOfContents ul li {
-    padding: 5px 0 2px 0 !important;
+
+/* TOC */
+
+#TableOfContents {
+    border: 1px solid;
 }
+
+
+
+
 
 .content {
+    width: 720px;
+        height: 71vh;
     font-size: small;
     background-color: white;
     border: 1px solid;
@@ -261,23 +288,71 @@ body.emk-mode header a a:visited {
     color: #f5f5f5;
 }
 
-body.emk-mode #TableOfContents {
-    background: rgb(45, 45, 45);
+body.emk-mode #project  {
+    border: 1px solid;
+    color: #f5f5f5;
 }
 
-body.fd-mode {
-    background-image: url('uploads/background-fd.png');
+body.emk-mode #project .list-project a {
+    color: white;
+}
+body.emk-mode #project a {
+    text-decoration: none;
+    color: white;
+}
+
+body.emk-mode .content {
+    border: 1px solid !important;
+
+    font-size: small;
+
+    padding: 8px 35px 35px;
+}
+
+body.info-mode {
+    background-image: url('bg/background-info.svg');
 
     /* Set the background size and position */
     background-size: cover;
     background-position: center;
-
-    /* Set the padding to create some space around the text */
-    padding: 20px;
 }
 
-body.emk-mode .content {
-    font-size: small;
-    border: none;
-    padding: 8px 35px 35px;
+body.fd-mode {
+    background-image: url('bg/background-fd.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+}
+
+body.lanch-mode {
+    background-image: url('bg/background-lanch.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+}
+
+body.luv-mode {
+    background-image: url('bg/background-luv.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+}
+
+body.fs-mode {
+    background-image: url('bg/background-fs.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
+}
+
+body.maw-mode {
+    background-image: url('bg/background-maw.svg');
+
+    /* Set the background size and position */
+    background-size: cover;
+    background-position: center;
 }

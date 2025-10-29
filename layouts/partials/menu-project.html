@@ -1,12 +1,8 @@
-<nav id="main">
+<nav id="project">
 
-    <div class="page">
-        {{ with .GetPage "info" }}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-        {{ end }}
-    </div>
 
-    <div class="list-flex">
+
+    <div class="project-list-flex">
 
         <div class="list-post">
             {{ with .Site.GetPage "/posts" }}
