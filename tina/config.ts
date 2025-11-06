@@ -1,5 +1,4 @@
 import { defineConfig } from "tinacms";
-import Fruits from "./collections/fruits"
 import Post from "./collections/post";
 import Project from "./collections/project";
 import Page from "./collections/page";
@@ -22,6 +21,6 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [Fruits, Page, Post, Project],
+    collections: [Page, Post, Project],
   },
 });

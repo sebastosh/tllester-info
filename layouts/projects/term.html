@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-    {{- partial "menu.html" . -}}
+   {{- partial "menu-single.html" . -}}
 
     <div class="content">
         <h1>{{ .Page.Title }}</h1>
@@ -18,5 +18,4 @@
         {{ .Content }}
 
     </div>
-
 {{ end }}

@@ -1,20 +1,42 @@
 <menu>
     <div>
-            <div class="page">
-        {{ with .GetPage "info" }}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-        {{ end }}
-    </div>
-    <div class="list-post">
-        
-        {{ with .Site.GetPage "/posts" }}
-        {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
+        <div class="page">
+            {{ with .GetPage "info" }}
             <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            {{ end }}
         </div>
-        {{ end }}
-        {{ end }}
-    </div>
+        <div class="list-post">
+
+            {{ with .Site.GetPage "/posts" }}
+            {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+
+
+
+<div class="post">
+                {{ $pageURL := .Permalink }}
+                {{ if .Params.external_url }}
+                {{ $pageURL = .Params.external_url }}
+                <a href="{{ $pageURL }}" target="_blank" rel="noopener noreferrer">
+                    {{ .Title }}
+                </a>
+                {{ else }}
+                            
+                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+      
+                {{ end }}
+
+
+      </div>
+
+
+
+
+
+
+
+            {{ end }}
+            {{ end }}
+        </div>
     </div>
 
 
