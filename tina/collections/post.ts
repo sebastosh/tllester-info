@@ -7,24 +7,25 @@ const Post: Collection = {
   fields: [
     {
           type: "object",
-          name: "featured_image",
-          label: "Featured Image",
+          name: "image",
+          label: "Image",
           fields: [
             {
               type: "image",
               name: "src",
               label: "Image",
             },
+                        {
+              type: "string",
+              name: "title",
+              label: "Title",
+            },
             {
               type: "string",
               name: "alt",
-              label: "Image Description (alt)",
+              label: "Alt Description",
             },
-            {
-              type: "string",
-              name: "caption",
-              label: "Image Caption (title)",
-            },
+
           ],
         },
     {

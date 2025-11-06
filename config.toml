@@ -7,3 +7,19 @@ title = 'Todd Lanier Lester'
     endLevel = 6
     ordered = false
     startLevel = 2
+
+[taxonomies]
+  project = 'projects'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'projects'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 100

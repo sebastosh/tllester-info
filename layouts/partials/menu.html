@@ -1,33 +1,33 @@
 <menu>
-
-    <div class="page">
+    <div>
+            <div class="page">
         {{ with .GetPage "info" }}
         <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
         {{ end }}
     </div>
-
-
-
-        <div class="list-post">
-            {{ with .Site.GetPage "/posts" }}
-            {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-            <div class="post">
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            </div>
-            {{ end }}
-            {{ end }}
-
+    <div class="list-post">
+        
+        {{ with .Site.GetPage "/posts" }}
+        {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
         </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    </div>
 
-        <div class="list-project">
-            {{ with .Site.GetPage "/projects" }}
-            {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
 
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 
-            {{ end }}
-            {{ end }}
-        </div>
+    <div class="list-project">
+        {{ with .Site.GetPage "/projects" }}
+        {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+
+        {{ end }}
+        {{ end }}
+    </div>
 
 
 
