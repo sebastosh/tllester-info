@@ -1,4 +1,5 @@
 <menu>
+    
     <div>
         <div class="page">
             {{ with .GetPage "info" }}
@@ -6,56 +7,42 @@
             {{ end }}
         </div>
         <div class="list-post">
-
             {{ with .Site.GetPage "/posts" }}
-            {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+                {{ range (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+                    <div class="post">
+                        {{ $pageURL := .Permalink }}
 
-            <div class="post">
-                {{ $pageURL := .Permalink }}
+                        {{ if .Params.external_url }}
+                        {{ $pageURL = .Params.external_url }}
+                        <a href="{{ $pageURL }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
 
-                {{ if .Params.external_url }}
-                {{ $pageURL = .Params.external_url }}
-                    <a href="{{ $pageURL }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+                        {{ else if .Params.file.src }}
+                        {{ $pageURL = .Params.file.src }}
+                        <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
 
-                {{ else if .Params.file.src }}
-                {{ $pageURL = .Params.file.src }}
-                    <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
+                        {{ else if .Params.file.image }}
+                        {{ $pageURL = .Params.file.image }}
+                        <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
 
-                {{ else if .Params.file.image }}
-                {{ $pageURL = .Params.file.image }}
-                    <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
+                        {{ else }}
+                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 
-                {{ else }}
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                        {{ end }}
 
+                    </div>
                 {{ end }}
-
-            </div>
-
-
-
-
-
-
-
-            {{ end }}
             {{ end }}
         </div>
     </div>
 
-
-
     <div class="list-project">
         {{ with .Site.GetPage "/projects" }}
-        {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+            {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
 
-        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 
-        {{ end }}
+            {{ end }}
         {{ end }}
     </div>
-
-
-
 
 </menu>

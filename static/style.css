@@ -77,7 +77,11 @@ menu nav {
 menu .page {
     line-height: 1.5;
     padding: 9px;
+}
 
+#TableOfContents {
+    padding-left: 9px;
+    margin: 9px 0;
 }
 
 #TableOfContents ul {
@@ -85,9 +89,8 @@ menu .page {
     padding-inline-start: 0;
 }
 
-#TableOfContents {
-        padding-left: 9px;
-    margin: 9px 0;
+#TableOfContents ul li {
+    line-height: 2em;
 }
 
 menu .list-post {
@@ -97,7 +100,7 @@ menu .list-post {
     overflow-y: auto;
 }
 
-menu .post {
+menu .list-post .post {
     margin-bottom: 1em;
 }
 

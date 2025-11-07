@@ -1,31 +1,27 @@
 <menu>
 
-    {{ .TableOfContents }}
-
-    <div class="list-flex">
-
+    <div>
+        {{ .TableOfContents }}
         <div class="list-post">
             {{ with .Site.GetPage "/posts" }}
-            {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-            <div class="post">
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-            </div>
+                {{ range (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+                    <div class="post">
+                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                    </div>
+                {{ end }}
             {{ end }}
-            {{ end }}
-
         </div>
+    </div>
 
         <div class="list-project">
             {{ with .Site.GetPage "/projects" }}
-            {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
-
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-
-            {{ end }}
+                {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                {{ end }}
             {{ end }}
         </div>
 
-    </div>
+
 
 
 </menu>
