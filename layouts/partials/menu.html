@@ -10,23 +10,27 @@
             {{ with .Site.GetPage "/posts" }}
             {{ range first 10 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
 
-
-
-<div class="post">
+            <div class="post">
                 {{ $pageURL := .Permalink }}
+
                 {{ if .Params.external_url }}
                 {{ $pageURL = .Params.external_url }}
-                <a href="{{ $pageURL }}" target="_blank" rel="noopener noreferrer">
-                    {{ .Title }}
-                </a>
+                    <a href="{{ $pageURL }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+
+                {{ else if .Params.file.src }}
+                {{ $pageURL = .Params.file.src }}
+                    <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
+
+                {{ else if .Params.file.image }}
+                {{ $pageURL = .Params.file.image }}
+                    <a href="{{ $pageURL }}" title="{{ .Title }}">{{ .Title }}</a>
+
                 {{ else }}
-                            
                 <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-      
+
                 {{ end }}
 
-
-      </div>
+            </div>
 
 
 

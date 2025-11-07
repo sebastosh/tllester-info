@@ -23,4 +23,12 @@ export default defineConfig({
   schema: {
     collections: [Page, Post, Project],
   },
+    search: {
+    tina: {
+      indexerToken: 'e467baa9022c39a6b168bb23055e8de11bc6e8a4',
+      stopwordLanguages: ['eng'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
 });

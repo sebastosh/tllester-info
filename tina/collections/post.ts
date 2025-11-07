@@ -19,13 +19,13 @@ const Post: Collection = {
         },
             {
           type: "object",
-          name: "pdf",
-          label: "PDF",
+          name: "file",
+          label: "File",
           fields: [
             {
               type: "image",
               name: "src",
-              label: "PDF",
+              label: "File",
             },
           ],
         },
