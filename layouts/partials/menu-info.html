@@ -1,17 +1,6 @@
-<menu>
 
-    <div>
-        {{ .TableOfContents }}
-        <div class="list-post">
-            {{ with .Site.GetPage "/posts" }}
-                {{ range (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-                    <div class="post">
-                        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                    </div>
-                {{ end }}
-            {{ end }}
-        </div>
-    </div>
+
+ 
 
         <div class="list-project">
             {{ with .Site.GetPage "/projects" }}
@@ -24,4 +13,3 @@
 
 
 
-</menu>

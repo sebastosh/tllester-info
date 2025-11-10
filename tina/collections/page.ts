@@ -26,6 +26,11 @@ const Page: Collection = {
       name: "draft",
       label: "Draft",
     },
+        {
+      type: "rich-text",
+      name: "summary",
+      label: "Summary",
+    },
     {
       type: "rich-text",
       name: "body",

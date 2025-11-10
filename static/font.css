@@ -29,3 +29,106 @@
     font-weight: 700;
     text-rendering: optimizeLegibility;
 }
+
+
+/* LATO */
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato/Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato/Lato-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato/Lato-BoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Roboto */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-SemiBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Bitcount_Grid_Double */
+
+@font-face {
+    font-family: "BitcountGridDouble";
+    src: url("font/Bitcount_Grid_Double/BitcountGridDouble-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "BitcountGridDouble";
+    src: url("font/Bitcount_Grid_Double/BitcountGridDouble-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "BitcountGridDouble";
+    src: url("font/Bitcount_Grid_Double/BitcountGridDouble-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "BitcountGridDouble";
+    src: url("font/Bitcount_Grid_Double/BitcountGridDouble-SemiBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
