@@ -26,11 +26,18 @@ const Project: Collection = {
       name: "draft",
       label: "Draft",
     },
-    {
-      type: "rich-text",
-      name: "summary",
-      label: "Summary",
-    },
+        {
+          type: "object",
+          name: "image",
+          label: "Image",
+          fields: [
+            {
+              type: "image",
+              name: "src",
+              label: "Image",
+            },
+          ],
+        },
     {
       type: "rich-text",
       name: "body",

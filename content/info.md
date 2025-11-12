@@ -2,11 +2,7 @@
 title: info
 date: 2025-10-01T06:00:00.000Z
 summary: >
-  I speak and teach on themes pertaining to my art work--eg artist safety, the
-  right to the city, HIV and stigma; areas in which I've otherwise trained or
-  immersed such as organizational development, mobility, artist residency; and
-  the methodology resulting from urban intervention, graffiti, film or
-  literature intersecting my artistic practice.
+  I speak and teach on themes pertaining to my art work--eg artist safety, the right to the city, HIV and stigma; areas in which I've otherwise trained or immersed such as organizational development, mobility, artist residency; and the methodology resulting from urban intervention, graffiti, film or literature intersecting my artistic practice.
 ---
 
 ## biography

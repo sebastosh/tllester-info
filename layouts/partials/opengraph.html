@@ -3,7 +3,7 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{- with .Params.image }}
+{{- with .Params.image.src }}
 {{ $image := $.Resources.GetMatch . }}
 {{ with $image }}
   {{ $thumb := .Resize "400x" }}

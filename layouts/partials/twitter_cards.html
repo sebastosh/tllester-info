@@ -1,4 +1,4 @@
-{{- with .Params.image }}
+{{- with .Params.image.src }}
 {{ $image := $.Resources.GetMatch . }}
 {{ with $image }}
 {{ $thumb := .Resize "400x" }}

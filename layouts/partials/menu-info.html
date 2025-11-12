@@ -1,15 +1,19 @@
+<menu>
+    {{ .TableOfContents }}
+
+    {{ if .Params.summary }}
+    <div class="list-summary">
+        <p>{{ .Params.summary }}</p>
+    </div>
+    {{ end }}
+
+    <div class="list-project">
+        {{ with .Site.GetPage "/projects" }}
+        {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+        {{ end }}
+        {{ end }}
+    </div>
 
 
- 
-
-        <div class="list-project">
-            {{ with .Site.GetPage "/projects" }}
-                {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}
-                    <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-                {{ end }}
-            {{ end }}
-        </div>
-
-
-
-
+</menu>

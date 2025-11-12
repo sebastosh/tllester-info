@@ -1,6 +1,9 @@
 <menu>
 <div>
         <div class="page">
+                        {{ with .GetPage "info" }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            {{ end }}
         <a href="https://elmejorkarate.substack.com/" target="_blank" rel="noopener noreferrer">emk sub
         </a>
     </div>
