@@ -32,6 +32,7 @@ body {
     flex-wrap: nowrap;
     position: relative;
     width: 1080px;
+    height: 850px;
 }
 
 header,
@@ -261,9 +262,7 @@ audio {
 
 /* CUSTOM MODES */
 
-body.home menu{
-border-right: 1px solid;
-}
+
 
 body.emk-mode {
     background-image: url('bg/background-emk3.jpg');
