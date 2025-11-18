@@ -139,11 +139,9 @@ menu .list-summary a {
 }
 
 menu .list-project {
-    margin: 0;
     border-top: 1px solid;
     line-height: 1.5;
     padding: 9px;
-    overflow-y: auto;
 }
 
 menu .list-project a {
