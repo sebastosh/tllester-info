@@ -1,6 +1,6 @@
 {{ define "main" }}
 <menu>
-    <div>
+
         <div class="page">
             {{ with .GetPage "info" }}
             <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
@@ -35,7 +35,7 @@
                 </div>
             {{ end }}  */}}
         </div>
-    </div>
+
     <div class="list-project">
         {{ with .Site.GetPage "/projects" }}
         {{ range first 10 (sort .Pages "Date" "asc" (where .Pages ".Params.private" "!=" true))}}

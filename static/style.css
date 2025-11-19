@@ -92,9 +92,14 @@ menu .page img {
     width: 25px;
 }
 
+menu a:hover {
+    text-decoration: underline;
+    color: lightcoral
+}
+
 #TableOfContents ul {
     list-style: none;
-    padding-inline-start: 15px;
+    padding-inline-start: 0px;
     margin: 5px 0;
 }
 
@@ -102,14 +107,10 @@ menu .page img {
     line-height: 2em;
 }
 
-menu a:hover {
-    text-decoration: underline;
-    color: lightcoral
-}
-
 .list-post {
     border-top: 1px solid;
-    padding: 10px;
+    padding: 10px 13px 0;
+    line-height: 1.4;
     height: 500px;
     overflow-y: auto;
 }
