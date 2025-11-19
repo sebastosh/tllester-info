@@ -1,6 +1,8 @@
 ---
 title: my Art World
 date: 2025-10-15T06:00:00.000Z
+image:
+  src: /uploads/maw-disco-ball.png
 ---
 
 In Cadáver Esquisito: uma história de amor intergaláctico, a chapter I wrote for AIDS Sem Capa: reflexões virais sobre um mundo pós-pandemia (2022), I say:
@@ -14,4 +16,3 @@ Through immersion and contemplation, I build worlds that I then place into the o
 The art world can facilitate exhibitions, publications, commissions and other salary-building blocks, but so can other worlds injected with art ideas and works. These worlds should always be liberating if not liberatory; never constricting. If you should want that your art is also a form of activism (or vice versa), the majority of this work is via subterfuge, drawing value from one small orb and redistributing it to countless other orbs. In this way, world-building along with the rest of us.
 
 tll/emk
-

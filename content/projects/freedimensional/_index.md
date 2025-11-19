@@ -3,7 +3,7 @@ summary: ''
 title: freeDimensional
 date: 2012-01-31T06:00:00.000Z
 image:
-  src: /uploads/artistsafetynet.png
+  src: /uploads/asn-crf.png
 ---
 
 For 10 years freeDimensional (2003-12) urges a sea change in the artist residency sector by practicing artist shelter and evacuation placements, convening networks and coalitions of expert practice, and publishing lessons learned in immigration and cultural policy fora.

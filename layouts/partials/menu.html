@@ -7,7 +7,7 @@
             <a href="https://elmejorkarate.substack.com/" target="_blank" rel="noopener noreferrer">emk sub
             </a>
         </div>
-        <div class="list-post">
+        <div class="list-summary">
             {{ with .Site.GetPage "/posts" }}
                 {{ range (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
                     <div class="post">
