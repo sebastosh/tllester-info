@@ -1,16 +1,21 @@
 <menu>
-
     <div class="page">
-        {{ .TableOfContents }}
-        <a href="#">CV</a>
+          {{ with .GetPage "info" }}
+                   {{ .TableOfContents }}
+            {{ end }}
+
+        <a href="/contact">contact</a>
+          {{/*  <a href="/contact">CV</a>  */}}
     </div>
 
 
-    {{ if .Params.summary }}
     <div class="list-summary">
-        <p>{{ .Params.summary }}</p>
+          {{ with .GetPage "info" }}
+                <p>{{ .Params.summary }}</p>
+            {{ end }}
+
     </div>
-    {{ end }}
+
 
     <div class="list-project">
         {{ with .Site.GetPage "/projects" }}

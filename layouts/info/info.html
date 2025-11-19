@@ -1,9 +1,7 @@
 {{ define "main" }}
-
-    {{- partial "menu.html" . -}}
+    {{- partial "menu-info.html" . -}}
 
 <div class="content">
-
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
@@ -12,14 +10,9 @@
     {{end}}
 {{ end }}
 
+
+
 {{ .Content }}
-
-    {{ if eq .Type "contact" }}
-        {{ partial "contact.html" . }}
-    {{ end }}
-
-
-
 </div>
 
 
