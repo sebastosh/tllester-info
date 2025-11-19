@@ -4,8 +4,11 @@
                    {{ .TableOfContents }}
             {{ end }}
 
-        <a href="/contact">contact</a>
-          {{/*  <a href="/contact">CV</a>  */}}
+{{ $contactPage := site.GetPage "contact" }}
+{{ if and $contactPage (not $contactPage.Draft) }}
+  <a href="{{ $contactPage.RelPermalink }}">contact</a>
+{{ end }}
+
     </div>
 
 
