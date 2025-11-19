@@ -207,16 +207,15 @@ menu .list-project a {
 
 .content {
     width: 720px;
-    font-size: small;
+    font-size: 18px;
     background-color: white;
     border: 1px solid;
     padding: 15px 35px;
     overflow-y: auto;
 }
 
-.content p {
-    font-size: 18px;
-
+.content ol li {
+    margin-bottom: .5em;
 }
 
 audio {
