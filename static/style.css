@@ -31,7 +31,7 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     position: relative;
-    width: 1080px;
+    height: 720px;
 }
 
 header,
@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 86vh;
+    height: 100%;
 }
 
 /* MENU */
@@ -210,7 +210,8 @@ menu .list-project a {
     font-size: 18px;
     background-color: white;
     border: 1px solid;
-    padding: 15px 35px;
+    padding: 25px 35px;
+    margin-left: 2em;
     overflow-y: auto;
 }
 
